@@ -9,6 +9,12 @@
 			"request": "launch",
 			"name": "Open test.html",
 			"file": "d:\\GitDirect\\Web\\test.html"
+		},
+		{
+			"type": "pwa-msedge",
+			"name": "http://127.0.0.1:3000/Web/Project_2/WebPage1.html",
+			"request": "launch",
+			"url": "http://127.0.0.1:3000/Web/Project_2/WebPage1.html"
 		}
 	]
 }
