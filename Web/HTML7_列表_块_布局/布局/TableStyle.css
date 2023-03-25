@@ -1,0 +1,33 @@
+#mainbody{
+	margin: 0px;
+}
+
+#controler{
+	width: 100%;
+	height: 900px;
+	background-color: dimgray
+}
+
+#head{
+	width: 100%;
+	height: 10%;
+	background-color: burlywood;
+}
+
+#menu{
+	width: 30%;
+	height: 80%;
+	background-color: beige;
+}
+
+#messagebody{
+	width: 70%;
+	height: 80%;
+	background-color: bisque;
+}
+
+#foot{
+	width: 100%;
+	height: 10%;
+	background-color: rgb(57, 65, 65);
+}

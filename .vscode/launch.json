@@ -15,6 +15,12 @@
 			"name": "http://127.0.0.1:3000/Web/Project_2/WebPage1.html",
 			"request": "launch",
 			"url": "http://127.0.0.1:3000/Web/Project_2/WebPage1.html"
+		},
+		{
+			"type": "pwa-msedge",
+			"name": "http://127.0.0.1:3000/Web/HTML5_链接/HTML功能性链接.html",
+			"request": "launch",
+			"url": "http://127.0.0.1:3000/Web/HTML5_链接/HTML功能性链接.html"
 		}
 	]
 }
