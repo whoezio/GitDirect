@@ -201,3 +201,148 @@
 - `<div>`元素也被称为块元素, 其主要是组合HTML元素的容器
 ### 4. HTML`<span>`元素
 - `<span>`元素是内联元素, 可作为文本的容器
+
+## HTML布局
+### 1. 使用div元素布局
+### 2. 使用table布局
+
+## HTML表单和php环境搭建
+### 1. 表单的创建
+1. 表单用于获取不同类型的用户输入
+2. 常用表单标签
+<table width="500px" bgcolor="cadetblue">
+	<tr bgcolor="coral">
+		<th>标签</th>
+		<th>描述</th>
+	</tr>
+	<tr>
+		<td>&ltform&gt</td>
+		<td>表单</td>
+	</tr>
+	<tr>
+		<td>&ltinput&gt</td>
+		<td>输入域</td>
+	</tr>
+	<tr>
+		<td>&lttextarea&gt</td>
+		<td>文本域</td>
+	</tr>
+	<tr>
+		<td>&ltlable&gt</td>
+		<td>控制标签</td>
+	</tr>
+	<tr>
+		<td>&ltfieldset&gt</td>
+		<td>定义域</td>
+	</tr>
+	<tr>
+		<td>&ltlegend&gt</td>
+		<td>域的标题</td>
+	</tr>
+	<tr>
+		<td>&ltselect&gt</td>
+		<td>选择的列表</td>
+	</tr>
+	<tr>
+		<td>&ltoptgroup&gt</td>
+		<td>选项组</td>
+	</tr>
+	<tr>
+		<td>&ltoption&gt</td>
+		<td>下拉列表中的选项</td>
+	</tr>
+	<tr>
+		<td>&ltbutton&gt</td>
+		<td>按钮</td>
+	</tr>
+</table>
+
+### 3.input域控件
+1. 复选框
+
+		<input type="checkbox">
+
+2. 单选按钮
+   
+		<td>男<input type="radio" name="sex"></td>
+		<td>女<input type="radio" name="sex"></td>
+
+3. 下拉列表
+   
+		<select name="web" id="select1">
+			<option value="www.baidu.com">www.baidu.com</option>
+			<option value="www.bing.com">www.bing.com</option>
+			<option value="www.google.com">www.google.com</option>
+		</select>
+
+4. 文本域
+
+		<textarea name="test" id="text1" cols="30" rows="10">说点什么吧...</textarea>
+
+5. 创建按钮
+   
+		<input type="button" value="按钮">
+
+## HTML框架
+### 1. 框架标签(frame):
+- 框架对于页面的设计有着很大的作用
+### 2. 框架集标签(`<frameset>`):
+- 框架集标签定义如何将窗口分割为框架
+- 每一个frameset定义一系列行或列
+- rows/cols的值规定了每行或每列的面积
+### 3. 常用标签
+- noresize : 固定框架大小
+- cols : 列
+- rows : 行
+### 4. 内联框架
+- iframe
+
+		<iframe src="frame1.html" frameborder="0" margin="0px" width="800px" height="800px"></iframe>
+
+## HTML背景
+### 1. 背景标签
+- background
+### 2. 背景颜色
+- bgcolor
+### 3. 颜色
+- 颜色是由一个十六进制符号来定义,这个符号由RGB值组成
+## HTML实体
+### 1. 实体:
+- HTML中预留字符串必须被替换成字符实体<br>如:<,>,&
+
+# HTML_XHTML
+### 1. 什么是XHTML
+- 可扩展超文本标记语言
+- 与HTML4.01几乎相同
+- 更严格更纯净的HTML版本
+- 是以XML应用的方式定义的HTML
+- 得到所有主流浏览器的支持
+### 2. 为什么使用XHTML
+- 为了代码的完整性和良好性
+### 3. 文档声明
+- DTD : 规定了使用通用标记语言的网页语法<br>STRICT(严格类型)<br>TRANSITIONAL(过渡类型)<br>FRAMESET(框架类型) 
+
+## XHTML的元素
+### 1. XHTML元素语法
+- 必须正确嵌套
+- 必须始终关闭
+- 必须小写
+- 必须有一个根元素
+
+## XHTML属性
+### 1. XHTML属性语法规则
+- 必须使用小写
+- 必须使用双引号包裹
+- 禁止最小化
+
+# HTML5和HTML4的区别
+## 推出的理由及目标
+HTML5的出现，对于Web来说意义是非常重大的，因为他的意图是想要把目前Web上存在的各种问题一并解决掉了。
+- Web浏览器之间的兼容性很低
+- 文档结构不够明确
+- Web应用程序的功能受到了限制
+
+世界知名浏览器厂商对HTML5的支持
+微软、Google、苹果、Opera、Mozilla
+
+
